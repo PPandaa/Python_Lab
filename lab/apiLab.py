@@ -1,11 +1,7 @@
-#!/usr/bin/env python
-
 from flask import Flask, request, jsonify
-from flask import render_template
 
 app = Flask(__name__)
 
-#Type 1
 @app.route("/", methods=['GET','POST'])
 def index():
     if request.method == "POST":
