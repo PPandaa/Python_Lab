@@ -1,3 +1,4 @@
+from collections import Counter
 if __name__ == '__main__':
     list = [10,10,18,19,37,10,28,33]
     
@@ -6,3 +7,6 @@ if __name__ == '__main__':
 
     list.sort(reverse=True)
     print(list)
+
+    a = Counter(list)
+    print(a[10])
