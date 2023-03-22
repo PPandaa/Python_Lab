@@ -1,5 +1,6 @@
 import paho.mqtt.client as mqtt
 
+
 def MQTT_InfluxPublisher(newData):
     mqtt_host = "124.9.14.79"
     mqtt_port = 1883

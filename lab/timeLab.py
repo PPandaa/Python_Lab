@@ -1,6 +1,7 @@
 import time
 from datetime import datetime
 
+
 timeData = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 print(timeData)
 time.sleep(1)

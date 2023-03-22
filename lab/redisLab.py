@@ -1,5 +1,6 @@
 import redis
 
+
 REDIS_PASSWORD = "plZdYk4XnNWaS9GgRlVOWm-39ZqvWVAg-cawCdtZndBUNciDQ1"
 pool = redis.ConnectionPool(host='192.168.56.90', port=6379, decode_responses=True, password=REDIS_PASSWORD)
 r = redis.Redis(connection_pool=pool)

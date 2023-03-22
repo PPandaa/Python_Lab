@@ -1,6 +1,7 @@
 # pip install matplotlib
 import matplotlib.pyplot as plt
 
+
 if __name__ == '__main__':
     plt.scatter(10, 10, c='b',label="a")
     plt.scatter(20, 20, c='g',label="b")
